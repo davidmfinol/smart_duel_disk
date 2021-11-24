@@ -13,6 +13,7 @@
     1. `flutter run` for Android or iOS.
     1. `flutter run -d chrome -t lib/main_web.dart` for web.
     1. `flutter run -d macos` for macOS.
+    1. `flutter run -d windows -t lib/main_windows.dart` for Windows.
 
 ## Building the app (release)
 

@@ -17,7 +17,8 @@ dependencies:
   easy_localization: ^3.0.0
   enum_to_string: ^2.0.1
   equatable: ^2.0.3
-  firebase_core: ^1.6.0
+  firebase_core: ^1.9.0
+  firebase_core_desktop: ^0.1.1-dev.0
   firebase_crashlytics: ^2.2.1
   firebase_remote_config: ^0.11.0
   flutter:
@@ -87,6 +88,7 @@ scripts:
   gorel: flutter run --release
   mac: flutter run -d macos
   web: flutter run -d chrome -t lib/main_web.dart
+  windows: flutter run -d windows -t lib/main_windows.dart
   all: flutter run -d all
   loco: bundle exec fastlane download_loco_changes
   build: flutter pub run build_runner build --delete-conflicting-outputs

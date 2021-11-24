@@ -11,6 +11,7 @@ final di = GetIt.instance;
 
 const mobile = Environment('mobile');
 const web = Environment('web');
+const windows = Environment('windows');
 
 @InjectableInit()
 Future<void> initDependencies(AppConfig appConfig, Environment environment) async {

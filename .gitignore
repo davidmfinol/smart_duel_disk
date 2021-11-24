@@ -26,6 +26,7 @@ ios/Runner/GoogleService-Info.plist
 ios/Flutter/.last_build_id
 *.env
 .idea
+.vscode
 fastlane/report.xml
 
 ios/Podfile.lock
